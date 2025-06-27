@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FilmFlare</string>
+
+
+    <string name="app_id">com.filmflare</string> <!-- Use your application ID here -->
+    <string name="default_web_client_id" translatable="false">907034634673-aghbjas61hkuuucln6ocsdn8v1iorja4.apps.googleusercontent.com</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_api_key">AIzaSyBo-hQ-Rkk3bHm7Sr_gWSYPKKU6RcWcTBk</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="movie_genres">Movie Genres</string>
+    <string name="science_fiction_movies">Science Fiction Movies</string>
+    <string name="action_movies">Action Movies</string>
+    <string name="crime_movies">Crime Movies</string>
+    <string name="romance_movies">Romance Movies</string>
+    <string name="drama_movies">Drama Movies</string>
+    <string name="settings">Settings</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="enable_dark_mode">Enable Dark Mode</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="change_app_language">Change App Language</string>
+    <string name="logout">Logout</string>
+    <string name="watchlisted_movies">Watchlisted Movies</string>
+    <string name="popular">Popular</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="genres">Genres</string>
+    <string name="maps">Maps</string>
+    <string name="settingss">Settings</string>
+
+</resources>

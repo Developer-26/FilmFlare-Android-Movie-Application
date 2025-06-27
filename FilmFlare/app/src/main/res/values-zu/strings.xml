@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmFlare</string>
+
+
+    <string name="app_id">com.filmflare</string> <!-- Use your application ID here -->
+    <string name="default_web_client_id" translatable="false">907034634673-aghbjas61hkuuucln6ocsdn8v1iorja4.apps.googleusercontent.com</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_api_key">AIzaSyBo-hQ-Rkk3bHm7Sr_gWSYPKKU6RcWcTBk</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="movie_genres">Izinhlobo zamaMovie</string>
+    <string name="science_fiction_movies">Amafilimu Ezinganekwane Zesayensi</string>
+    <string name="action_movies">Amafilimu Esenzo</string>
+    <string name="crime_movies">Amafilimu obugebengu</string>
+    <string name="romance_movies">Amafilimu Othando</string>
+    <string name="drama_movies">Amafilimu eDrama</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="display_settings">Izilungiselelo zokubonisa</string>
+    <string name="enable_dark_mode">Nika amandla Imodi Emnyama</string>
+    <string name="account_settings">Amasethingi we-akhawunti</string>
+    <string name="language_settings">Izilungiselelo Zolimi</string>
+    <string name="change_app_language">Shintsha Ulimi Lokusebenza</string>
+    <string name="logout">Phuma</string>
+    <string name="watchlisted_movies">Amamuvi Asohlwini lokubuka</string>
+    <string name="popular">Okudumile</string>
+    <string name="watchlist">uhlu lokubuka</string>
+    <string name="genres">izinhlobo</string>
+    <string name="maps">Amamephu</string>
+    <string name="settingss">Izilungiselelo</string>
+</resources>

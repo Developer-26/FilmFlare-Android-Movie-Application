@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#ff424242</color>
+    <color name="navyBlue">#323b60</color>
+    <color name="Blue">#244378</color>
+    <color name="Dark_blue">#244275</color>
+
+    <!-- Background color for Dark Mode -->
+    <color name="dark_background_color">#808080</color> <!-- Dark Mode Background -->
+    <color name="light_background_color">#8FAED5</color> <!-- Light Mode Background -->
+
+    <color name="add_to_watchlist_color">#ffbb00</color> <!-- Add To Watchlist color -->
+    <color name="added_to_watchlist_color">#877f69</color> <!-- Added To Watchlist color -->
+
+    <!-- Existing styles -->
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">#244378</item>
+        <item name="android:textColor">#FFFFFF</item> <!-- Optional: Adjust text color as needed -->
+    </style>
+
+</resources>

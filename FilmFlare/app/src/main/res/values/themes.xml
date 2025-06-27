@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FilmFlare" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Blue</item>
+        <item name="colorPrimaryVariant">@color/Blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/navyBlue</item>
+        <item name="colorOnTertiaryFixedVariant">@color/navyBlue</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/Blue</item>
+
+
+
+    </style>
+
+    <style name="Theme.FilmFlare" parent="Base.Theme.FilmFlare" />
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/Blue</item>
+    </style>
+</resources>

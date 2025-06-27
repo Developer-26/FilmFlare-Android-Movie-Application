@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_background_color">
+
+    <!-- Horizontal layout for logo and text aligned at the top -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="start"
+    android:layout_gravity="top">
+
+        <!-- ImageView for the logo -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:contentDescription="Logo"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="-32dp"
+            android:layout_marginStart="-30dp"/>
+
+    <!-- TextView for Popular Movies -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_movies"
+        android:textSize="24sp"
+        android:layout_marginStart="30dp"
+        android:textColor="@android:color/black"/>
+
+        <!-- ImageView for the logo -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:contentDescription="Logo"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="-32dp"
+            android:layout_marginStart="40dp"/>
+</LinearLayout>
+
+    <!-- RecyclerView for Popular Movies list -->
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/popularRecyclerView"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+android:padding="8dp"
+    android:layout_marginBottom="100dp"/>
+    </LinearLayout>

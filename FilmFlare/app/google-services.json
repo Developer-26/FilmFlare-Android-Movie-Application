@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907034634673",
+    "firebase_url": "https://filmflare-e2c57-default-rtdb.firebaseio.com",
+    "project_id": "filmflare-e2c57",
+    "storage_bucket": "filmflare-e2c57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907034634673:android:b5ac86d6b2f337da543590",
+        "android_client_info": {
+          "package_name": "com.filmflare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907034634673-cgt3j6glhatb9rn0lnpnggimaktlgl1n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.filmflare",
+            "certificate_hash": "fbbf50937ff625dbd3f74eb6badc6c271aa4ea88"
+          }
+        },
+        {
+          "client_id": "907034634673-aghbjas61hkuuucln6ocsdn8v1iorja4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyhh_cL6PuWPj03YoZXnZOszM_dGQZvrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907034634673-aghbjas61hkuuucln6ocsdn8v1iorja4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

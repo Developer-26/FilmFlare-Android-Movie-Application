@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmFlare</string>
+
+
+    <string name="app_id">com.filmflare</string> <!-- Use your application ID here -->
+    <string name="default_web_client_id" translatable="false">907034634673-aghbjas61hkuuucln6ocsdn8v1iorja4.apps.googleusercontent.com</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_api_key">AIzaSyBo-hQ-Rkk3bHm7Sr_gWSYPKKU6RcWcTBk</string>
+    <string name="popular_movies">Gewilde flieks</string>
+    <string name="movie_genres">Fliek Genres</string>
+    <string name="science_fiction_movies">Wetenskapfiksie-flieks</string>
+    <string name="action_movies">Aksie Flieks</string>
+    <string name="crime_movies">Misdaadflieks</string>
+    <string name="romance_movies">Romanse flieks</string>
+    <string name="drama_movies">Drama Flieks</string>
+    <string name="settings">Instellings</string>
+    <string name="display_settings">Vertoon instellings</string>
+    <string name="enable_dark_mode">Aktiveer donker modus</string>
+    <string name="account_settings">Rekeninginstellings</string>
+    <string name="language_settings">Taalinstellings</string>
+    <string name="change_app_language">Verander programtaal</string>
+    <string name="logout">Teken uit</string>
+    <string name="watchlisted_movies">Gekyklys-flieks</string>
+    <string name="popular">Gewild</string>
+    <string name="watchlist">Kyklys</string>
+    <string name="genres">Genres</string>
+    <string name="maps">Kaarte</string>
+    <string name="settingss">Instellings</string>
+</resources>

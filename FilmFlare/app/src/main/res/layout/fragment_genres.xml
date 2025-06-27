@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GenresFragment"
+    android:background="@color/light_background_color">
+
+    <!-- Scrollable content inside the LinearLayout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/movie_genres"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- Science Fiction Movies RecyclerView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/science_fiction_movies"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:padding="4dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/scienceFictionRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:clipToPadding="false"
+                android:scrollbars="horizontal"/>
+
+            <!-- Action Movies RecyclerView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_movies"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="4dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/actionRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:clipToPadding="false"
+                android:scrollbars="horizontal"/>
+
+            <!-- Crime Movies RecyclerView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crime_movies"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="4dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/crimeRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:clipToPadding="false"
+                android:scrollbars="horizontal"/>
+
+            <!-- Romance Movies RecyclerView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/romance_movies"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="4dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/romanceRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:clipToPadding="false"
+                android:scrollbars="horizontal"/>
+
+            <!-- Drama Movies RecyclerView -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drama_movies"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="4dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/dramaRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:clipToPadding="false"
+                android:scrollbars="horizontal"
+                android:layout_marginBottom="40dp"/>
+
+            <!-- Extra space at the bottom -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="56dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
