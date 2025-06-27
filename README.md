@@ -1,6 +1,6 @@
 
 🎬 FilmFlare – Android Movie Discovery App
-FilmFlare is a sleek and intuitive Android application that lets users browse movies by category, view in-depth details (descriptions, ratings, cast), and explore nearby cinemas within a 20km radius using Google Maps. Packed with personalization 
+FilmFlare is a sleek and intuitive Android application that lets users browse movies by category, view in-depth details (descriptions, ratings, cast), and explore nearby cinemas within a 20km radius using Google Maps, Forget Password functionality. Packed with personalization 
 features like dark mode and language toggling, FilmFlare delivers a tailored movie-discovery experience.
 
 📱 Features
